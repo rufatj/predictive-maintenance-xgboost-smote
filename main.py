@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-
 #!pip install xgboost
 import pandas as pd
 import time
@@ -67,6 +64,12 @@ plt.xlabel("model's predictions")
 plt.ylabel("real result")
 plt.title("confusion matrix")
 plt.show()
+
+
+
+
+#used for smote section, smote used for increasing efficientisty
+
 
 from numpy.random import random_sample
 import re
